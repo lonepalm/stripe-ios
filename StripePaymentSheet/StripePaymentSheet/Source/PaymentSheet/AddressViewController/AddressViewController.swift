@@ -78,6 +78,7 @@ public class AddressViewController: UIViewController {
         }
         return button
     }()
+    public var publicButton: UIView { button }
     private lazy var headerLabel: UILabel = {
         let header = PaymentSheetUI.makeHeaderLabel(appearance: configuration.appearance)
         header.text = configuration.title
@@ -223,7 +224,7 @@ extension AddressViewController {
 // MARK: - Internal methods
 extension AddressViewController {
 
-    func didContinue() {
+    public func didContinue() {
         logAddressCompleted()
         delegate?.addressViewControllerDidFinish(self, with: addressDetails)
     }
