@@ -25,13 +25,7 @@ extension UIButton {
             button.frame.size.height = titleLabelHeight * 2.25
         }
 
-        button.backgroundColor = UIColor(dynamicProvider: { traitCollection in
-            if traitCollection.isDarkMode {
-                return appearance.colors.componentBackground
-            }
-
-            return appearance.colors.background.darken(by: 0.07)
-        })
+        button.backgroundColor = appearance.colors.background
 
         return button
     }
