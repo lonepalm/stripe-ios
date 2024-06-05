@@ -84,7 +84,7 @@ public class AddressViewController: UIViewController {
         header.text = configuration.title
         return header
     }()
-    lazy var scrollView: UIScrollView = {
+    public lazy var scrollView: UIScrollView = {
         return UIScrollView()
     }()
     lazy var errorLabel: UILabel = {
