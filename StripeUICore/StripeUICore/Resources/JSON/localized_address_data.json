@@ -14,10 +14,6 @@
       "require":"AS",
       "state_name_type":"emirate"
    },
-   "AF":{
-      "fmt":"%N%n%O%n%A%n%C%n%Z",
-      "zip":"\\d{4}"
-   },
    "AG":{
       "require":"A"
    },
@@ -111,10 +107,6 @@
       "fmt":"%N%n%O%n%A%n%C %Z",
       "zip":"[A-Z]{2} ?[A-Z0-9]{2}"
    },
-   "BN":{
-      "fmt":"%N%n%O%n%A%n%C %Z",
-      "zip":"[A-Z]{2} ?\\d{4}"
-   },
    "BO":{
       "fmt":"%C"
    },
@@ -141,10 +133,6 @@
    },
    "BW":{
       "fmt":"%C"
-   },
-   "BY":{
-      "fmt":"%S%n%Z %C%n%A%n%O%n%N",
-      "zip":"\\d{6}"
    },
    "BZ":{
       "fmt":"%C"
@@ -553,10 +541,6 @@
       "fmt":"%N%n%O%n%A%n%Z %C",
       "zip":"\\d{5}"
    },
-   "LB":{
-      "fmt":"%N%n%O%n%A%n%C %Z",
-      "zip":"(?:\\d{4})(?: ?(?:\\d{4}))?"
-   },
    "LC":{
       "fmt":"%C"
    },
@@ -732,9 +716,6 @@
       "require":"AS",
       "state_name_type":"district"
    },
-   "NU":{
-      "fmt":"%C"
-   },
    "NZ":{
       "fmt":"%N%n%O%n%A%n%D%n%C %Z",
       "require":"ACZ",
@@ -821,13 +802,6 @@
    "RS":{
       "fmt":"%N%n%O%n%A%n%Z %C",
       "zip":"\\d{5,6}"
-   },
-   "RU":{
-      "fmt":"%N%n%O%n%A%n%C%n%S%n%Z",
-      "lfmt":"%N%n%O%n%A%n%C%n%S%n%Z",
-      "require":"ACSZ",
-      "state_name_type":"oblast",
-      "zip":"\\d{6}"
    },
    "RW":{
       "fmt":"%C"
@@ -1173,9 +1147,6 @@
    "XK":{
       "fmt":"%N%n%O%n%A%n%Z %C",
       "zip":"[1-7]\\d{4}"
-   },
-   "YE":{
-      "fmt":"%C"
    },
    "YT":{
       "fmt":"%O%n%N%n%A%n%Z %C %X",
