@@ -48,7 +48,6 @@
 		2C5621AABECF6192F92A20CF /* STDSStripe3DS2Error.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4376BB07FD1EE783249AED /* STDSStripe3DS2Error.m */; };
 		2C6DB6516699B4EFADDF3360 /* STDSRuntimeException.h in Headers */ = {isa = PBXBuildFile; fileRef = B8619CA38E2A5B49DBF8546B /* STDSRuntimeException.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2CB6DF5CCCBC1EB9ABD03143 /* STDSNotInitializedException.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FCABBF51CBA7F9FEF757B4C /* STDSNotInitializedException.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2D42EA44FC01C834209CFED4 /* Stripe3DS2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E1CB633CA5917B2168BB928 /* Stripe3DS2.xcassets */; };
 		2E2022723BC7A4B2DD5ECE76 /* STDSErrorMessage+Internal.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB591796654445B8434A501 /* STDSErrorMessage+Internal.m */; };
 		30632F7C730BF8D23B607CF7 /* STDSWarningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 474F39AA3F47D84F8D54E5B7 /* STDSWarningTests.m */; };
 		30B25163BEDEB99CDD101B5F /* NSString+EmptyChecking.h in Headers */ = {isa = PBXBuildFile; fileRef = A8A77DB1C711B8696B2E5FEF /* NSString+EmptyChecking.h */; };
@@ -491,7 +490,6 @@
 		99CB2B66DBD356B5D222EDA9 /* UIView+LayoutSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+LayoutSupport.h"; sourceTree = "<group>"; };
 		99DB24A9B44979EA19347A76 /* STDSChallengeResponseObject+TestObjects.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "STDSChallengeResponseObject+TestObjects.m"; sourceTree = "<group>"; };
 		9A8B0001705400C661678617 /* UIColor+ThirteenSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+ThirteenSupport.h"; sourceTree = "<group>"; };
-		9E1CB633CA5917B2168BB928 /* Stripe3DS2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stripe3DS2.xcassets; sourceTree = "<group>"; };
 		9F4376BB07FD1EE783249AED /* STDSStripe3DS2Error.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STDSStripe3DS2Error.m; sourceTree = "<group>"; };
 		9F5C194C81AF1F5578698A27 /* STDSChallengeResponseObject+TestObjects.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "STDSChallengeResponseObject+TestObjects.h"; sourceTree = "<group>"; };
 		A09A89BBE7360F93195641C9 /* STDSImageLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STDSImageLoader.m; sourceTree = "<group>"; };
@@ -893,7 +891,6 @@
 			children = (
 				47CD3B0E4EAA05F75DA05252 /* CertificateFiles */,
 				F31A6580385C6390910AFD93 /* Localizable.strings */,
-				9E1CB633CA5917B2168BB928 /* Stripe3DS2.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -1282,7 +1279,6 @@
 				081347606D48F64161D95B45 /* mastercard.der in Resources */,
 				81B1C12449852CEB3C59793F /* ul-test.der in Resources */,
 				125427F1322501AA12EAEBE6 /* visa.der in Resources */,
-				2D42EA44FC01C834209CFED4 /* Stripe3DS2.xcassets in Resources */,
 				31CDFC322BA8E58100B3DD91 /* PrivacyInfo.xcprivacy in Resources */,
 				6BA3F565B6C0B78F6DED8826 /* Localizable.strings in Resources */,
 			);
