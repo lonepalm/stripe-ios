@@ -53,6 +53,7 @@
 		992E387C98107E7038353D05 /* STPAnalyticsClient+PaymentsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5385E30F06B36FEB36D4266 /* STPAnalyticsClient+PaymentsUITests.swift */; };
 		9CCE00DDB77E0B1E5BC30372 /* STPPromise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF11005974CF20FFAC9671F /* STPPromise.swift */; };
 		9F4C9A403EAF125B8BC56182 /* DynamicImageView+Unknown.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FB38D261CBB35B6D83CE3E /* DynamicImageView+Unknown.swift */; };
+		A1FDA8D703659A4F517D9A80 /* StripePaymentsUI.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E82CBAFEACB3332DE187BBEA /* StripePaymentsUI.xcassets */; };
 		A41B0A2A37AD28D28D9577CA /* STPPostalCodeInputTextFieldFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF9AD15E4A50C49A65376DC /* STPPostalCodeInputTextFieldFormatter.swift */; };
 		A4A9946052C4A1BCCBA6D508 /* STPPostalCodeValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCF047C291E579AFDE3ED2F /* STPPostalCodeValidator.swift */; };
 		A808592926FCB3BA78B862BF /* STPNumericDigitInputTextFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F169F220E75780C60A4DDE88 /* STPNumericDigitInputTextFormatter.swift */; };
@@ -227,6 +228,7 @@
 		E22E366C1397E3E321EFBA72 /* StripeiOS Tests-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "StripeiOS Tests-Release.xcconfig"; sourceTree = "<group>"; };
 		E45CEE8F2A450AAF95226FAA /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		E5385E30F06B36FEB36D4266 /* STPAnalyticsClient+PaymentsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "STPAnalyticsClient+PaymentsUITests.swift"; sourceTree = "<group>"; };
+		E82CBAFEACB3332DE187BBEA /* StripePaymentsUI.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = StripePaymentsUI.xcassets; sourceTree = "<group>"; };
 		E87D9A22F5475D1F8058E38D /* STPFloatingPlaceholderTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STPFloatingPlaceholderTextField.swift; sourceTree = "<group>"; };
 		E8C0921DF28F5F7911653888 /* StripePaymentsUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StripePaymentsUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9F4C1C5E227B17DBC07DC42 /* StripePayments+Export.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StripePayments+Export.swift"; sourceTree = "<group>"; };
@@ -406,6 +408,7 @@
 			children = (
 				62140A9DA8A852E23FFACC1C /* JSON */,
 				45D22B72C2DE0D4407BB65DB /* Localizations */,
+				E82CBAFEACB3332DE187BBEA /* StripePaymentsUI.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -656,6 +659,7 @@
 			files = (
 				528BE8DF6DD797D45501886F /* au_becs_bsb.json in Resources */,
 				F45B49EA9C1FE627B2F5A0EE /* Localizable.strings in Resources */,
+				A1FDA8D703659A4F517D9A80 /* StripePaymentsUI.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

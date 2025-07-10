@@ -128,6 +128,7 @@ let package = Package(
             path: "StripePaymentsUI/StripePaymentsUI",
             exclude: ["Info.plist"],
             resources: [
+                .process("Resources/StripePaymentsUI.xcassets"),
                 .process("Resources/JSON")
             ]
         ),
@@ -137,6 +138,7 @@ let package = Package(
             path: "StripePaymentSheet/StripePaymentSheet",
             exclude: ["Info.plist"],
             resources: [
+                .process("Resources/StripePaymentSheet.xcassets"),
                 .process("Resources/JSON"),
                 .process("PrivacyInfo.xcprivacy")
             ]
